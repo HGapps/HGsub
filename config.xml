@@ -50,9 +50,9 @@
   <icon gap:platform="ios" height="167" src="www/res/icon/ios/icon-167.png" width="167"/>
   <icon gap:platform="ios" height="512" src="www/res/icon/ios/icon-512.png" width="512"/>
   <icon gap:platform="ios" height="1024" src="www/res/icon/ios/icon-1024.png" width="1024"/>
-  <gap:config-file parent="CFBundleShortVersionString" platform="ios">
+  <!--<gap:config-file parent="CFBundleShortVersionString" platform="ios">
     <string>100</string>
-  </gap:config-file>
+  </gap:config-file>-->
   <plugin name="cordova-plugin-whitelist"/>
   <platform name="android">
     <splash qualifier="ldpi" src="www/images/splash.png"/>
