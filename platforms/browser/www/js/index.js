@@ -8,7 +8,11 @@ var app = {
 	},
 
 	onDeviceReady: function() {
-		
+
+		StatusBar.overlaysWebView(true);
+		StatusBar.styleDefault();
+		//StatusBar.backgroundColorByName("red");
+
 		function checkConnection() {
 			var networkState = navigator.connection.type;
 			var states = {};

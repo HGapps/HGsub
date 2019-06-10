@@ -55,5 +55,5 @@
     <preference name="exit-on-suspend" value="false" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-installLocation" value="auto" />
-    <preference name="StatusBarBackgroundColor" value="#ffbb55" />
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
 </widget>
