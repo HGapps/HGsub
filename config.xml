@@ -73,6 +73,7 @@
     <plugin name="cordova-plugin-splashscreen"/>
   </platform>
   <access origin="*"/>
+  <access origin="http://www.hasangad.com*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
   <allow-intent href="tel:*"/>
