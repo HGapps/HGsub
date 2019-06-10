@@ -11,7 +11,7 @@ var app = {
 
 		StatusBar.overlaysWebView(true);
 		StatusBar.styleDefault();
-		//StatusBar.backgroundColorByName("red");
+		StatusBar.backgroundColorByName("white");
 
 		function checkConnection() {
 			var networkState = navigator.connection.type;
