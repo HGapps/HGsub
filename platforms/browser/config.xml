@@ -33,6 +33,7 @@
     <icon gap:platform="ios" height="512" src="www/res/icon/ios/icon-512.png" width="512" />
     <icon gap:platform="ios" height="1024" src="www/res/icon/ios/icon-1024.png" width="1024" />
     <access origin="*" />
+    <access origin="http://www.hasangad.com*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -49,7 +50,7 @@
     <preference name="target-device" value="universal" />
     <preference name="webviewbounce" value="true" />
     <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="false" />
+    <preference name="stay-in-webview" value="true" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="disable-cursor" value="false" />

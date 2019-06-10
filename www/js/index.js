@@ -53,11 +53,11 @@ var app = {
 					.fadeIn(1000);
 			} else {
 
-				/*if (navigator.connection.type == Connection.NONE) {
+				if (navigator.connection.type == Connection.NONE) {
 					navigator.notification.alert('An internet connection is required to continue');
 				  } else {
 					window.location="https://www.hasangad.com/support";
-				  }*/
+				  }
 
 				//alert("Connected");
 				if (localStorage.login_is) {

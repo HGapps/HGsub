@@ -686,7 +686,7 @@ $(document)
 						"right": "-100%"
 					});
 
-					window.location="https://www.hasangad.com/support";
+				//	window.location="https://www.hasangad.com/support";
 			});
 		$(".skip_to_home_icon")
 			.click(function() {
