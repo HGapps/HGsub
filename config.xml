@@ -20,12 +20,13 @@
   <preference name="target-device" value="universal"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
-  <preference name="stay-in-webview" value="false"/>
+  <preference name="stay-in-webview" value="true"/>
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
   <preference name="disable-cursor" value="false"/>
   <preference name="android-installLocation" value="auto"/>
   <plugin name="cordova-plugin-device"/>
+  <plugin name="cordova-plugin-dialogs"/>
   <plugin name="cordova-plugin-network-information"/>
   <plugin name="cordova-plugin-statusbar"/>
   <plugin name="cordova-plugin-vibration"/>
